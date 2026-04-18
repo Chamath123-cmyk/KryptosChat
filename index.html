@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KryptosChat | Privacy First Messaging</title>
+    <style>
+      body {
+        background-color: #0f172a; /* Deep dark blue-black */
+        color: #f8fafc;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        overflow: hidden;
+      }
+
+      .container {
+        text-align: center;
+        padding: 20px;
+      }
+
+      .logo {
+        font-size: 3rem;
+        font-weight: bold;
+        letter-spacing: 2px;
+        background: linear-gradient(90deg, #38bdf8, #818cf8);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 10px;
+      }
+
+      .status-tag {
+        display: inline-block;
+        background-color: #1e293b;
+        color: #38bdf8;
+        padding: 5px 15px;
+        border-radius: 20px;
+        font-size: 0.9rem;
+        border: 1px solid #334155;
+        margin-bottom: 20px;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+        font-weight: 300;
+        color: #94a3b8;
+        margin-bottom: 30px;
+      }
+
+      .loader {
+        width: 50px;
+        height: 50px;
+        border: 3px solid #1e293b;
+        border-radius: 50%;
+        border-top-color: #38bdf8;
+        animation: spin 1s ease-in-out infinite;
+        margin: 0 auto 40px auto;
+      }
+
+      /* Contact Developer Button */
+      .contact-btn {
+        display: inline-block;
+        text-decoration: none;
+        color: #f8fafc;
+        border: 1px solid #334155;
+        padding: 10px 25px;
+        border-radius: 8px;
+        font-size: 0.9rem;
+        transition: all 0.3s ease;
+        background-color: rgba(30, 41, 59, 0.5);
+      }
+
+      .contact-btn:hover {
+        background-color: #1e293b;
+        border-color: #38bdf8;
+        transform: translateY(-2px);
+      }
+
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      .footer {
+        position: absolute;
+        bottom: 30px;
+        color: #475569;
+        font-size: 0.8rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">KryptosChat</div>
+      <div class="status-tag">Under Development</div>
+      <h1>Something private and secure is coming soon.</h1>
+      <div class="loader"></div>
+
+      <a href="mailto:chamathneranjana854@gmail.com" class="contact-btn"
+        >Contact Developer</a
+      >
+    </div>
+
+    <div class="footer">&copy; 2026 KryptosChat. Built for privacy.</div>
+  </body>
+</html>
